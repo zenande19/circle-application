@@ -1,0 +1,19 @@
+package newpackage;
+
+import java.util.Scanner;
+
+class circle
+{
+    public static void main(String[] arg)
+    {
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter the radius of the Circle : -");
+    float radius = in.nextFloat();
+        float diameter = 2 * radius;
+    float area = (float) (Math.PI * radius * radius);
+    float circumference = (float) (2 * Math.PI * radius);
+System.out.println("The  area of a Circle is:"+area);
+            System.out.println("The diameter of the Circle is :"+diameter);
+    System.out.println("The circumference of the Circle :"+circumference);
+}
+ }
